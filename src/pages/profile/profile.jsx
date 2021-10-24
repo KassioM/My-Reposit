@@ -25,9 +25,6 @@ const Profile = () => {
           })
           // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
-    
-    console.log(data)
-    
         
     return (
         <div className="page-profile" >
@@ -67,7 +64,10 @@ const Profile = () => {
                                     {/*Nome e Sobre*/}
                 
                                         <div className="title-perfil">
-                                                <h1 className="nome" >{data.name}</h1>
+
+                                            {data.name === null ? <h1 className="nome" >{data.login}</h1> : <h1 className="nome" >{data.name}</h1>}
+                                            
+
                                                 <p className="bio">{data.bio}</p>
                                                 <i className="material-icons-outlined" />
 
