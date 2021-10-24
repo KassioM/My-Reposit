@@ -48,7 +48,7 @@ const User = () => {
 
               <div className="img-git">
 
-                <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Git Hub" />
+                <img src="https://img3.gratispng.com/dy/d3b77b3c5df9fab955ed88ce30e30148/L0KzQYm3WMA4N6ttiZH0aYP2gLBuTfdqfJl6ep95YXfog37zjBdwNaNqiNH8aYTygsq0hv9zc15sgeZxdXKwfLFuj70yNZ5mf9d3dIn2PYbpVsllbWg2eqc6Mka4Pom8WMYxP2c7Sac8M0a5RImBUcc1OWgziNDw/kisspng-github-pages-logo-repository-fork-github-logo-1-magentys-5b69de71b51265.8586076615336648817417.png" alt="Git Hub" />
 
               </div>
 
