@@ -1,0 +1,362 @@
+.home {
+    width: 100%;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+}
+
+.banner img {
+    width: 100%;
+    height: 300px;
+}
+
+.box-perfil {
+    display: flex;
+    justify-content: center;
+}
+
+.perfil {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 850px;
+    height: 100%;
+    background: #181A1F;
+    border-radius: 20px;
+    position: relative;
+    margin-top: -5%;
+    padding: 150px;
+}
+
+.perfil img {
+    top: -30%;
+    left: 35%;
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.title-perfil {
+    position: relative;
+    top: 5%;
+}
+
+.title-perfil h1 {
+    font-size: 45px;
+    color: #fff;
+}
+
+.title-perfil p {
+    font-size: 12px;
+    color: #fff;
+}
+
+.bio {
+    margin-top: 1%;
+}
+
+.button-site {
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-site i {
+    color: var(--text);
+    margin-right: 5%;
+    font-size: 12px;
+}
+
+.button-site a {
+    color: var(--text);
+    font-size: 12px;
+    border-bottom: 1px solid var(--text);
+}
+
+.user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.img-git {
+    display: flex;
+    justify-content: center;
+}
+
+.img-git img {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+}
+
+.input-user input {
+    width: 350px;
+    height: 35px;
+    outline: none;
+    padding: 10px;
+}
+
+.content-button-user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.button-user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    animation: 10s button-background ease-in infinite;
+}
+
+@keyframes button-background {
+    0% {
+        background: rgb(122,21,194);
+background: -moz-linear-gradient(90deg, rgba(122,21,194,1) 0%, rgba(101,48,217,1) 35%, rgba(144,25,230,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(122,21,194,1) 0%, rgba(101,48,217,1) 35%, rgba(144,25,230,1) 100%);
+background: linear-gradient(90deg, rgba(122,21,194,1) 0%, rgba(101,48,217,1) 35%, rgba(144,25,230,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#7a15c2",endColorstr="#9019e6",GradientType=1);
+    }
+
+    100% {
+        background: rgb(144,25,230);
+background: -moz-linear-gradient(90deg, rgba(144,25,230,1) 0%, rgba(101,48,217,1) 59%, rgba(122,21,194,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(144,25,230,1) 0%, rgba(101,48,217,1) 59%, rgba(122,21,194,1) 100%);
+background: linear-gradient(90deg, rgba(144,25,230,1) 0%, rgba(101,48,217,1) 59%, rgba(122,21,194,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9019e6",endColorstr="#7a15c2",GradientType=1);
+    }
+}
+
+.button-user a {
+    font-size: 12px;
+    color: #fff;
+}
+
+.input-user {
+    display: flex;
+    justify-content: center;
+}
+
+.content-info-user {
+    position: relative;
+    text-align: center;
+}
+
+.content-find-user {
+    position: relative;
+}
+
+.content-info-user h1 {
+    font-size: 45px;
+    color: #fff;
+}
+
+.descricao-info-user {
+    display: flex;
+    justify-content: center;
+}
+
+.content-info-user p {
+    font-size: 14px;
+    color: #fff;
+    width: 60%;
+}
+
+.img-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.img-background img {
+    opacity: .5;
+    width: 100%;
+    height: 100%;
+}
+
+.user-content {
+    display: flex;
+    justify-content: center;
+}
+
+.box-user {
+    width: 500px;
+    height: 550px;
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.425);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.audio-spotify {
+    position: absolute;
+    top: -30%;
+    left: -10%;
+}
+
+
+.button-spotify {
+    width: 135%;
+    height: 60px;
+    border-radius: 20px;
+    background: #181A1F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-spotify i {
+    margin-right: 5%;
+    color: #fff;
+    font-size: 22px;
+    animation: music-animation 5s infinite ease;
+}
+
+.button-spotify p {
+    color: #fff;
+    font-size: 12px;
+}
+
+@keyframes music-animation {
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.forgot-name {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    color: #fff;
+    font-size: 12px;
+}
+
+.activy-user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+}
+
+.followers {
+    margin-right: 15%;
+}
+
+.activy-user h1 {
+    color: #fff;
+    font-size: 40px;
+}
+
+.activy-user p {
+    color: #fff;
+    font-size: 12px;
+}
+
+.content-repositorio-box {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.content-repositorios {
+    width: 100%;
+}
+
+.repositorios {
+    display: flex;
+    justify-content: left;
+    padding: 30px;
+    width: 850px;
+    height: 100%;
+    background: #181A1F;
+    border-radius: 20px;
+}
+
+.box-repositorios {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3%;
+    padding: 5px;
+    border-bottom: 1px solid #fff;
+}
+
+.name-box {
+    color: #fff;
+    font-size: 18px;    
+}
+
+.description-box {
+    color: #fff;
+    font-size: 12px;    
+}
+
+.commit-box {
+    margin-top: 3%;
+    font-size: 10px;
+    color:#186E2B;
+}
+
+.about-reposit-box i {
+    font-size: 14px;
+    color: #fff;   
+}
+
+.notfound {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.title-notfound {
+    text-align: center;
+}
+
+.title-notfound h1 {
+    font-size: 80px;
+    color: #fff;
+}
+
+.title-notfound p {
+    font-size: 12px;
+    color: #fff;
+}
+
+.button-notfound {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 40px;
+    background: #fff;
+    margin-top: 3%;
+    border-radius: 20px;
+}
+
+.button-content-notfound {
+    display: flex;
+    justify-content: center;
+}
+
+.button-notfound a {
+    font-size: 12px;
+    color: #181A1F;
+}
