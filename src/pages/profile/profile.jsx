@@ -26,13 +26,13 @@ const Profile = () => {
           // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
     
-    console.log(data.user)
+    console.log(data)
     
         
     return (
         <div className="page-profile" >
 
-            {data !== undefined ? 
+            {data.name === undefined ? 
             
             <NotFound />
             
